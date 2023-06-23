@@ -1,5 +1,4 @@
 #Declare a file resource for school
-
 file { '/tmp/school':
     ensure => present,
     mode => '0744',

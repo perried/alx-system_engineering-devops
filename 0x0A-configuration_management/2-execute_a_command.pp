@@ -2,5 +2,4 @@
 
 exec { 'kill_my_proccess':
     command     => 'pkill killmenow',
-    refreshonly => true,
 }
